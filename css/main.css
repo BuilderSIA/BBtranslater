@@ -1,0 +1,88 @@
+.box{
+    width: 1520px;
+    height: 700px;
+    /* border: 1px solid; */
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #8f2c2c;
+    font-size: large;
+}
+.box__left{
+    width: 50%;
+    height: 100%;
+    border: 1px solid;
+    /* border-top-right-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__left-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.box__right{
+    width: 50%;
+    height: 100%;
+    border: 1px solid;
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textTranslate{
+    font-size: 22px; 
+    cursor:auto; 
+    width: 80%;
+    height: 25%;
+    border: 2px solid #0bc392;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(99, 99, 99);
+}
+.buttonForTranslate{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #0bc392;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #5ef1ca;
+    box-shadow: 2px 2px 2px rgb(99, 99, 99);
+}
+.result{
+    color: #050149;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .box{
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 390px) {
+    .box{
+        width: 100%;
+    }
+}
